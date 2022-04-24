@@ -1,0 +1,31 @@
+import remiseras.*
+import clientes.*
+
+describe "Lucía está reemplazando a Mariela, y Melina está trabajando para Ludmila"{
+	
+	test "10km de viaje" {
+	lucia.reemplazarRemisera(mariela)
+	melina.estaTrabajandoPara(ludmila)
+	assert.equals(150, lucia.precioViaje(melina, 10))
+	}
+	test "1km de viaje" {
+	lucia.reemplazarRemisera(mariela)
+	melina.estaTrabajandoPara(ludmila)
+	assert.equals(50, lucia.precioViaje(melina, 1))
+	}
+}
+
+describe "Lucía está reemplazando a Gabriela, y Melina está trabajando para Ludmila"{
+	
+	test "10km de viaje" {
+	lucia.reemplazarRemisera(gabriela)
+	melina.estaTrabajandoPara(ludmila)
+	assert.equals(180, lucia.precioViaje(melina, 10))
+	}
+	test "1km de viaje" {
+	lucia.reemplazarRemisera(gabriela)
+	melina.estaTrabajandoPara(ludmila)
+	assert.equals(18, lucia.precioViaje(melina, 1))
+	}
+}
+
