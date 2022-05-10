@@ -1,3 +1,8 @@
+/*
+ * Test3: Bien implementados los test, solo faltó verificar el método de 
+ * intercambiarRemiseras().
+ */
+
 import oficina.*
 import remiseras.*
 import clientes.*

@@ -1,3 +1,8 @@
+/*
+ * Test: Bien. Tal vez podrías haber agrupado los test por remisera para que 
+ * no quede tan extenso, igualmente está correcta la implementación.
+ */
+
 import remiseras.*
 import clientes.*
 

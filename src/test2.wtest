@@ -1,3 +1,7 @@
+/*
+ * Test2: Bien implementados los test.
+ */
+
 import remiseras.*
 import clientes.*
 
